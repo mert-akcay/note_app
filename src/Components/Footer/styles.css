@@ -1,0 +1,38 @@
+.notes {
+    width:98%;
+    color: rgb(255, 255, 255);
+}
+
+.notes:hover{
+    color: rgb(0, 0, 0);
+    border-color: black;
+}
+
+.notes::after{
+    color: rgb(0, 0, 0);
+    border-color: black;
+}
+
+.delButton{
+    background-color: #e60026;
+    color: rgb(189, 235, 224);
+    border: 2px outset white;
+}
+
+.delButton:hover{
+    background-color: #b80220;
+    color: white;
+    
+}
+
+.okButton{
+    background-color: #00810b;
+    color: rgb(189, 235, 224);
+    border: 2px outset white;
+}
+
+.okButton:hover{
+    background-color: #025a09;
+    color: white;
+    
+}
